@@ -40,7 +40,7 @@ The report walks through a concrete example step by step, showing the DFS tree, 
 
 ## 👤 Author
 
-**Mohammad Javad Abdolahi** – Graph Theory course project – February 2023
+**Mohammad Javad Abdolahi** – Graph Theory course project – February 2025
 
 ## 📜 License
 

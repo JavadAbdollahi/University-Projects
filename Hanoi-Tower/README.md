@@ -31,11 +31,11 @@ Fortunately, even if the legend were true, there is little to worry about: movin
 
 ---
 
-## 🖼 Sample Output (6 disks)
+## 🖼 Sample Output (10 disks)
 
-![Tower of Hanoi animation with 10 disks](Animations/Hanoi_10.gif)
+![Hanoi Animation](Animations/Hanoi_10.gif)
 
-> *Above: 6 disks being moved from peg A to peg C using peg B as auxiliary. The torus‑shaped disks are colour‑coded and smoothly animated.*
+> *Above: 10 disks being moved from peg A to peg C using peg B as auxiliary. The torus‑shaped disks are colour‑coded and smoothly animated.*
 
 ---
 
@@ -118,6 +118,7 @@ To change the number of disks, simply modify:
 n := 4;          # number of disks
 GHanoi(n);
 display(anime, insequence = true);
+```
 
 ---
 
