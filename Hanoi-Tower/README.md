@@ -171,5 +171,5 @@ This project is licensed under the MIT License – free to use, modify, and dist
 
 ## 🔗 Related Projects
 
-- [Forest Fire Simulation (Maple)](https://github.com/javadabdolahi/University-Projects/Forest-Fire-Simulation)
-- [Conway's Game of Life (Maple)](https://github.com/javadabdolahi/University-Projects/Game-of-Life)
+- [Forest Fire Simulation (Maple)](https://github.com/JavadAbdollahi/University-Projects/blob/main/Forest-Fire-Simulation)
+- [Conway's Game of Life (Maple)](https://github.com/JavadAbdollahi/University-Projects/blob/main/Game-of-Life)
