@@ -116,5 +116,5 @@ This project is licensed under the MIT License – free to use, modify, and dist
 
 ## 🔗 Related Projects
 
-- [Conway's Game of Life (Maple)](https://github.com/javadabdolahi/University-Projects/Game-of-Life)
-- [Hanoi Tower Animation (Maple)](https://github.com/javadabdolahi/University-Projects/Hanoi-Tower)
+- [Conway's Game of Life (Maple)](https://github.com/JavadAbdollahi/University-Projects/Game-of-Life)
+- [Hanoi Tower Animation (Maple)](https://github.com/JavadAbdollahi/University-Projects/Hanoi-Tower)
