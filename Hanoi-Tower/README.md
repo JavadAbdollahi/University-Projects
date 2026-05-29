@@ -33,7 +33,7 @@ Fortunately, even if the legend were true, there is little to worry about: movin
 
 ## 🖼 Sample Output (6 disks)
 
-![Tower of Hanoi animation with 10 disks](https://github.com/JavadAbdollahi/University-Projects/blob/main/Hanoi-Tower/Animations/Hanoi_10.gif)
+![Hanoi Animation](Animations/Hanoi_10.gif)
 
 > *Above: 6 disks being moved from peg A to peg C using peg B as auxiliary. The torus‑shaped disks are colour‑coded and smoothly animated.*
 
