@@ -2,7 +2,7 @@
 
 [![English](https://img.shields.io/badge/lang-English-blue)](README.md)
 
-> **Language switch:** Click the badge above to read this page in Persian.
+> **Language switch:** Click the badge above to read this page in English.
 
 ---
 
