@@ -1,0 +1,429 @@
+Initial states of the lists 30000 (only showing first, middle, and last 10 elements):
+--------------------------------------------------------------
+Sorted List (Initial state):
+First 10 elements: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Middle 10 elements: [14996, 14997, 14998, 14999, 15000, 15001, 15002, 15003, 15004, 15005]
+Last 10 elements: [29991, 29992, 29993, 29994, 29995, 29996, 29997, 29998, 29999, 30000]
+--------------------------------------------------------------
+Reversed List (Initial state):
+First 10 elements: [30000, 29999, 29998, 29997, 29996, 29995, 29994, 29993, 29992, 29991]
+Middle 10 elements: [15005, 15004, 15003, 15002, 15001, 15000, 14999, 14998, 14997, 14996]
+Last 10 elements: [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+--------------------------------------------------------------
+Worst Case for Middle Pivot (Initial state):
+First 10 elements: [15001, 15002, 15003, 15004, 15005, 15006, 15007, 15008, 15009, 15010]
+Middle 10 elements: [29996, 29997, 29998, 29999, 30000, 1, 2, 3, 4, 5]
+Last 10 elements: [14991, 14992, 14993, 14994, 14995, 14996, 14997, 14998, 14999, 15000]
+--------------------------------------------------------------
+Worst Case for Median Pivot (Initial state):
+First 10 elements: [1, 5, 9, 13, 17, 21, 25, 29, 33, 37]
+Middle 10 elements: [20, 16, 12, 8, 4, 2, 6, 10, 14, 18]
+Last 10 elements: [39, 35, 31, 27, 23, 19, 15, 11, 7, 3]
+--------------------------------------------------------------
+Random List (Initial state):
+First 10 elements: [28733, 2492, 15531, 12501, 21115, 26940, 11845, 4087, 25137, 21177]
+Middle 10 elements: [26851, 19557, 14200, 2854, 4068, 24344, 16936, 4873, 29569, 22696]
+Last 10 elements: [16255, 18694, 7550, 23684, 7099, 15908, 4545, 4678, 23638, 22033]
+--------------------------------------------------------------
+
+Testing sorting for each list with different pivot choices:
+
+Testing sorting with 'first' pivot for all lists:
+
+-------------------- Sorted List Sorted with 'first' Pivot --------------------
+Sorting took: 33.885354 seconds
+
+First 10 elements after sorting:
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+Middle 10 elements after sorting:
+[14996, 14997, 14998, 14999, 15000, 15001, 15002, 15003, 15004, 15005]
+
+Last 10 elements after sorting:
+[29991, 29992, 29993, 29994, 29995, 29996, 29997, 29998, 29999, 30000]
+--------------------------------------------------------------
+
+
+-------------------- Reversed List Sorted with 'first' Pivot --------------------
+Sorting took: 33.566353 seconds
+
+First 10 elements after sorting:
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+Middle 10 elements after sorting:
+[14996, 14997, 14998, 14999, 15000, 15001, 15002, 15003, 15004, 15005]
+
+Last 10 elements after sorting:
+[29991, 29992, 29993, 29994, 29995, 29996, 29997, 29998, 29999, 30000]
+--------------------------------------------------------------
+
+
+-------------------- Worst Case for Middle Pivot Sorted with 'first' Pivot --------------------
+Sorting took: 14.981786 seconds
+
+First 10 elements after sorting:
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+Middle 10 elements after sorting:
+[14996, 14997, 14998, 14999, 15000, 15001, 15002, 15003, 15004, 15005]
+
+Last 10 elements after sorting:
+[29991, 29992, 29993, 29994, 29995, 29996, 29997, 29998, 29999, 30000]
+--------------------------------------------------------------
+
+
+-------------------- Worst Case for Median Pivot Sorted with 'first' Pivot --------------------
+Sorting took: 7.251605 seconds
+
+First 10 elements after sorting:
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+Middle 10 elements after sorting:
+[14996, 14997, 14998, 14999, 15000, 15001, 15002, 15003, 15004, 15005]
+
+Last 10 elements after sorting:
+[29991, 29992, 29993, 29994, 29995, 29996, 29997, 29998, 29999, 30000]
+--------------------------------------------------------------
+
+
+-------------------- Random List Sorted with 'first' Pivot --------------------
+Sorting took: 0.037514 seconds
+
+First 10 elements after sorting:
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+Middle 10 elements after sorting:
+[14996, 14997, 14998, 14999, 15000, 15001, 15002, 15003, 15004, 15005]
+
+Last 10 elements after sorting:
+[29991, 29992, 29993, 29994, 29995, 29996, 29997, 29998, 29999, 30000]
+--------------------------------------------------------------
+
+
+Testing sorting with 'middle' pivot for all lists:
+
+-------------------- Sorted List Sorted with 'middle' Pivot --------------------
+Sorting took: 0.026006 seconds
+
+First 10 elements after sorting:
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+Middle 10 elements after sorting:
+[14996, 14997, 14998, 14999, 15000, 15001, 15002, 15003, 15004, 15005]
+
+Last 10 elements after sorting:
+[29991, 29992, 29993, 29994, 29995, 29996, 29997, 29998, 29999, 30000]
+--------------------------------------------------------------
+
+
+-------------------- Reversed List Sorted with 'middle' Pivot --------------------
+Sorting took: 0.025006 seconds
+
+First 10 elements after sorting:
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+Middle 10 elements after sorting:
+[14996, 14997, 14998, 14999, 15000, 15001, 15002, 15003, 15004, 15005]
+
+Last 10 elements after sorting:
+[29991, 29992, 29993, 29994, 29995, 29996, 29997, 29998, 29999, 30000]
+--------------------------------------------------------------
+
+
+-------------------- Worst Case for Middle Pivot Sorted with 'middle' Pivot --------------------
+Sorting took: 34.133907 seconds
+
+First 10 elements after sorting:
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+Middle 10 elements after sorting:
+[14996, 14997, 14998, 14999, 15000, 15001, 15002, 15003, 15004, 15005]
+
+Last 10 elements after sorting:
+[29991, 29992, 29993, 29994, 29995, 29996, 29997, 29998, 29999, 30000]
+--------------------------------------------------------------
+
+
+-------------------- Worst Case for Median Pivot Sorted with 'middle' Pivot --------------------
+Sorting took: 8.086747 seconds
+
+First 10 elements after sorting:
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+Middle 10 elements after sorting:
+[14996, 14997, 14998, 14999, 15000, 15001, 15002, 15003, 15004, 15005]
+
+Last 10 elements after sorting:
+[29991, 29992, 29993, 29994, 29995, 29996, 29997, 29998, 29999, 30000]
+--------------------------------------------------------------
+
+
+-------------------- Random List Sorted with 'middle' Pivot --------------------
+Sorting took: 0.041946 seconds
+
+First 10 elements after sorting:
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+Middle 10 elements after sorting:
+[14996, 14997, 14998, 14999, 15000, 15001, 15002, 15003, 15004, 15005]
+
+Last 10 elements after sorting:
+[29991, 29992, 29993, 29994, 29995, 29996, 29997, 29998, 29999, 30000]
+--------------------------------------------------------------
+
+
+Testing sorting with 'last' pivot for all lists:
+
+-------------------- Sorted List Sorted with 'last' Pivot --------------------
+Sorting took: 34.155816 seconds
+
+First 10 elements after sorting:
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+Middle 10 elements after sorting:
+[14996, 14997, 14998, 14999, 15000, 15001, 15002, 15003, 15004, 15005]
+
+Last 10 elements after sorting:
+[29991, 29992, 29993, 29994, 29995, 29996, 29997, 29998, 29999, 30000]
+--------------------------------------------------------------
+
+
+-------------------- Reversed List Sorted with 'last' Pivot --------------------
+Sorting took: 35.853513 seconds
+
+First 10 elements after sorting:
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+Middle 10 elements after sorting:
+[14996, 14997, 14998, 14999, 15000, 15001, 15002, 15003, 15004, 15005]
+
+Last 10 elements after sorting:
+[29991, 29992, 29993, 29994, 29995, 29996, 29997, 29998, 29999, 30000]
+--------------------------------------------------------------
+
+
+-------------------- Worst Case for Middle Pivot Sorted with 'last' Pivot --------------------
+Sorting took: 14.228282 seconds
+
+First 10 elements after sorting:
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+Middle 10 elements after sorting:
+[14996, 14997, 14998, 14999, 15000, 15001, 15002, 15003, 15004, 15005]
+
+Last 10 elements after sorting:
+[29991, 29992, 29993, 29994, 29995, 29996, 29997, 29998, 29999, 30000]
+--------------------------------------------------------------
+
+
+-------------------- Worst Case for Median Pivot Sorted with 'last' Pivot --------------------
+Sorting took: 7.522066 seconds
+
+First 10 elements after sorting:
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+Middle 10 elements after sorting:
+[14996, 14997, 14998, 14999, 15000, 15001, 15002, 15003, 15004, 15005]
+
+Last 10 elements after sorting:
+[29991, 29992, 29993, 29994, 29995, 29996, 29997, 29998, 29999, 30000]
+--------------------------------------------------------------
+
+
+-------------------- Random List Sorted with 'last' Pivot --------------------
+Sorting took: 0.030004 seconds
+
+First 10 elements after sorting:
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+Middle 10 elements after sorting:
+[14996, 14997, 14998, 14999, 15000, 15001, 15002, 15003, 15004, 15005]
+
+Last 10 elements after sorting:
+[29991, 29992, 29993, 29994, 29995, 29996, 29997, 29998, 29999, 30000]
+--------------------------------------------------------------
+
+
+Testing sorting with 'median_of_three' pivot for all lists:
+
+-------------------- Sorted List Sorted with 'median_of_three' Pivot --------------------
+Sorting took: 0.030013 seconds
+
+First 10 elements after sorting:
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+Middle 10 elements after sorting:
+[14996, 14997, 14998, 14999, 15000, 15001, 15002, 15003, 15004, 15005]
+
+Last 10 elements after sorting:
+[29991, 29992, 29993, 29994, 29995, 29996, 29997, 29998, 29999, 30000]
+--------------------------------------------------------------
+
+
+-------------------- Reversed List Sorted with 'median_of_three' Pivot --------------------
+Sorting took: 0.029992 seconds
+
+First 10 elements after sorting:
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+Middle 10 elements after sorting:
+[14996, 14997, 14998, 14999, 15000, 15001, 15002, 15003, 15004, 15005]
+
+Last 10 elements after sorting:
+[29991, 29992, 29993, 29994, 29995, 29996, 29997, 29998, 29999, 30000]
+--------------------------------------------------------------
+
+
+-------------------- Worst Case for Middle Pivot Sorted with 'median_of_three' Pivot --------------------
+Sorting took: 0.043385 seconds
+
+First 10 elements after sorting:
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+Middle 10 elements after sorting:
+[14996, 14997, 14998, 14999, 15000, 15001, 15002, 15003, 15004, 15005]
+
+Last 10 elements after sorting:
+[29991, 29992, 29993, 29994, 29995, 29996, 29997, 29998, 29999, 30000]
+--------------------------------------------------------------
+
+
+-------------------- Worst Case for Median Pivot Sorted with 'median_of_three' Pivot --------------------
+Sorting took: 16.530292 seconds
+
+First 10 elements after sorting:
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+Middle 10 elements after sorting:
+[14996, 14997, 14998, 14999, 15000, 15001, 15002, 15003, 15004, 15005]
+
+Last 10 elements after sorting:
+[29991, 29992, 29993, 29994, 29995, 29996, 29997, 29998, 29999, 30000]
+--------------------------------------------------------------
+
+
+-------------------- Random List Sorted with 'median_of_three' Pivot --------------------
+Sorting took: 0.040101 seconds
+
+First 10 elements after sorting:
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+Middle 10 elements after sorting:
+[14996, 14997, 14998, 14999, 15000, 15001, 15002, 15003, 15004, 15005]
+
+Last 10 elements after sorting:
+[29991, 29992, 29993, 29994, 29995, 29996, 29997, 29998, 29999, 30000]
+--------------------------------------------------------------
+
+
+Testing sorting with 'random' pivot for all lists:
+
+-------------------- Sorted List Sorted with 'random' Pivot --------------------
+Sorting took: 0.042247 seconds
+
+First 10 elements after sorting:
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+Middle 10 elements after sorting:
+[14996, 14997, 14998, 14999, 15000, 15001, 15002, 15003, 15004, 15005]
+
+Last 10 elements after sorting:
+[29991, 29992, 29993, 29994, 29995, 29996, 29997, 29998, 29999, 30000]
+--------------------------------------------------------------
+
+
+-------------------- Reversed List Sorted with 'random' Pivot --------------------
+Sorting took: 0.040150 seconds
+
+First 10 elements after sorting:
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+Middle 10 elements after sorting:
+[14996, 14997, 14998, 14999, 15000, 15001, 15002, 15003, 15004, 15005]
+
+Last 10 elements after sorting:
+[29991, 29992, 29993, 29994, 29995, 29996, 29997, 29998, 29999, 30000]
+--------------------------------------------------------------
+
+
+-------------------- Worst Case for Middle Pivot Sorted with 'random' Pivot --------------------
+Sorting took: 0.039994 seconds
+
+First 10 elements after sorting:
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+Middle 10 elements after sorting:
+[14996, 14997, 14998, 14999, 15000, 15001, 15002, 15003, 15004, 15005]
+
+Last 10 elements after sorting:
+[29991, 29992, 29993, 29994, 29995, 29996, 29997, 29998, 29999, 30000]
+--------------------------------------------------------------
+
+
+-------------------- Worst Case for Median Pivot Sorted with 'random' Pivot --------------------
+Sorting took: 0.041348 seconds
+
+First 10 elements after sorting:
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+Middle 10 elements after sorting:
+[14996, 14997, 14998, 14999, 15000, 15001, 15002, 15003, 15004, 15005]
+
+Last 10 elements after sorting:
+[29991, 29992, 29993, 29994, 29995, 29996, 29997, 29998, 29999, 30000]
+--------------------------------------------------------------
+
+
+-------------------- Random List Sorted with 'random' Pivot --------------------
+Sorting took: 0.044706 seconds
+
+First 10 elements after sorting:
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+Middle 10 elements after sorting:
+[14996, 14997, 14998, 14999, 15000, 15001, 15002, 15003, 15004, 15005]
+
+Last 10 elements after sorting:
+[29991, 29992, 29993, 29994, 29995, 29996, 29997, 29998, 29999, 30000]
+--------------------------------------------------------------
+
+
+All sorting times for each list and pivot choice:
+--------------------------------------------------------------
+
+Sorted List:
+  Pivot choice first           : 33.885354 seconds
+  Pivot choice middle          : 0.026006 seconds
+  Pivot choice last            : 34.155816 seconds
+  Pivot choice median_of_three : 0.030013 seconds
+  Pivot choice random          : 0.042247 seconds
+
+Reversed List:
+  Pivot choice first           : 33.566353 seconds
+  Pivot choice middle          : 0.025006 seconds
+  Pivot choice last            : 35.853513 seconds
+  Pivot choice median_of_three : 0.029992 seconds
+  Pivot choice random          : 0.040150 seconds
+
+Worst Case for Middle Pivot:
+  Pivot choice first           : 14.981786 seconds
+  Pivot choice middle          : 34.133907 seconds
+  Pivot choice last            : 14.228282 seconds
+  Pivot choice median_of_three : 0.043385 seconds
+  Pivot choice random          : 0.039994 seconds
+
+Worst Case for Median Pivot:
+  Pivot choice first           : 7.251605 seconds
+  Pivot choice middle          : 8.086747 seconds
+  Pivot choice last            : 7.522066 seconds
+  Pivot choice median_of_three : 16.530292 seconds
+  Pivot choice random          : 0.041348 seconds
+
+Random List:
+  Pivot choice first           : 0.037514 seconds
+  Pivot choice middle          : 0.041946 seconds
+  Pivot choice last            : 0.030004 seconds
+  Pivot choice median_of_three : 0.040101 seconds
+  Pivot choice random          : 0.044706 seconds
+
+--------------------------------------------------------------
