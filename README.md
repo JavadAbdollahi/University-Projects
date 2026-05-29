@@ -18,7 +18,7 @@ All projects are fully documented (code + reports) and ready to explore.
 ## 📂 Projects
 
 | # | Project Name | Subject | Language / Tool | Key Feature |
-|---|--------------|---------|----------------|--------------|
+|:---:|:--------------:|:---------:|:----------------:|:--------------:|
 | 1 | **Forest Fire Simulation** | Programming with Maple | Maple | 2D cellular automaton, colourful animation |
 | 2 | **Game of Life** | Programming with Maple | Maple | Conway's Game of Life (2D) |
 | 3 | **Tower of Hanoi (3D Torus)** | Programming with Maple | Maple | 3D donut‑shaped disks, recursive animation |
