@@ -2,7 +2,7 @@
 
 [![فارسی](https://img.shields.io/badge/lang-فارسی-blue)](README.fa.md)
 
-> **تغییر زبان:** روی نشانه‌ی بالا کلیک کنید تا نسخه‌ی انگلیسی را ببینید.
+> **تغییر زبان:** روی نشانه‌ی بالا کلیک کنید تا نسخه‌ی فارسی را ببینید.
 
 ---
 
@@ -78,7 +78,7 @@ University-Projects/
 
 **Mohammad Javad Abdolahi**  
 - Passionate about algorithms, mathematics, and clean code.  
-- These projects were done during my studies (2023–2025) as a personal initiative.
+- These projects were done during my studies (2021–2025) as a personal initiative.
 
 ---
 
