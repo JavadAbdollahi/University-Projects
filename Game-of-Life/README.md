@@ -112,5 +112,5 @@ This project is licensed under the MIT License – free to use, modify, and dist
 
 ## 🔗 Related Projects
 
-- [Forest Fire Simulation (Maple)](https://github.com/javadabdolahi/University-Projects/Forest-Fire-Simulation)
-- [Hanoi Tower Animation (Maple)](https://github.com/javadabdolahi/University-Projects/Hanoi-Tower)
+- [Forest Fire Simulation (Maple)](https://github.com/JavadAbdollahi/University-Projects/blob/main/Forest-Fire-Simulation)
+- [Hanoi Tower Animation (Maple)](https://github.com/JavadAbdollahi/University-Projects/blob/main/Hanoi-Tower)
