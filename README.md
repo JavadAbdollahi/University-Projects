@@ -78,7 +78,7 @@ University-Projects/
 
 **Mohammad Javad Abdolahi**  
 - Passionate about algorithms, mathematics, and clean code.  
-- These projects were done during my studies (2023–2025) as a personal initiative.
+- These projects were done during my studies (2021–2025) as a personal initiative.
 
 ---
 
